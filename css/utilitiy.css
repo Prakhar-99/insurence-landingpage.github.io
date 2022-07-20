@@ -1,0 +1,47 @@
+:root {
+      --Dark-Violet: hsl(256, 26%, 20%);
+    --Grayish-Blue: hsl(216, 30%, 68%);
+      --Very-Dark-Violet: hsl(270, 9%, 17%);
+    --Dark-Grayish-Violet: hsl(273, 4%, 51%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+    /* font for heading weight 400 */
+  --headinig-font: 'DM Serif Display', serif;
+    /* font for body weight 400 and 700 */
+   --body-font: 'Karla', sans-serif;
+  }
+
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.flex{
+    display: flex;
+}
+.primary-heading{
+    font-size: 50px;
+    color: white;
+}
+.primary-paragraph{
+    color: var(--Very-Light-Gray);
+}
+.secondary-heading{
+    color: var(--Dark-Violet);
+}
+.z-10{
+  z-index: 10;
+}
+.transition-1{
+  transition: all 0.3s ease;
+}
+.btn-hover:hover{
+  background-color: white;
+  color: var(--Dark-Violet);
+  transition: all 0.3s ease;
+}
+.social-hover:hover{
+  background-color: var(--Very-Dark-Violet);
+}
+
