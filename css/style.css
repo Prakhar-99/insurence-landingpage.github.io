@@ -67,7 +67,9 @@ h6 {
   color: var(--Dark-Grayish-Violet);
   font-weight: 700;
 }
-
+.nav-link-container li a:hover{
+  color: var(--Dark-Violet);
+}
 .viewplan-btn {
   border: 1px solid var(--Dark-Violet);
   padding: 10px 30px;
